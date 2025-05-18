@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "gh repo clone Kingloui6/Universalgateway" # See documentation for possible values
-    directory: "/gh repo clone Kingloui6/Universalgateway" # Location of package manifests
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/npm" # Location of package manifests
     schedule:
       interval: "weekly"
